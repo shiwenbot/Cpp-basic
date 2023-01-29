@@ -1,0 +1,10 @@
+编写C++程序，显示姓名和地址
+```
+#include <iostream>
+
+int main() {
+	using namespace std;
+
+	cout << "My name is Shiwen. " << "My address is NG9 2EQ" << endl;
+}
+```
