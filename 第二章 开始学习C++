@@ -1,5 +1,5 @@
 编写C++程序，显示姓名和地址
-```cpp
+```Cpp
 #include <iostream>
 
 int main() {
