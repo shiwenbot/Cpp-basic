@@ -1,0 +1,21 @@
+## 用指针访问结构体
+```Cpp
+#include<iostream>
+using namespace std;
+
+struct Student {
+	int age;
+	string name;
+	int gender;
+};
+
+int main() {
+	Student s1 = { 20, "Shiwen", 1 };
+	Student* p = &s1;
+	cout << "The age of s1 = " << p->age << endl;
+
+	system("Pause");
+};
+```
+
+## 结构体案例1
